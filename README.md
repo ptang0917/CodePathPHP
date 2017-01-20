@@ -1,40 +1,40 @@
-# Pre-work - TipCalculator
+# Pre-work - *Name of App Here*
 
-TipCalculator is a tip calculator application for iOS.
+**Tip Calculator** is a tip calculator PHP page.
 
 Submitted by: Philly Tang
 
-Time spent: 2 hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
-
-* [ X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [ x] User can enter a bill amount, choose a tip percentage, and submit the form to see the tip and total values.
+* [ x] Tip percentage choices use a PHP loop to output three radio buttons.
+* [ x] PHP code sets reasonable default values for the form.
+* [ x] PHP code confirms the presence and correct format of submitted values.
+* [ x] Page indicates any form errors which need to be fixed.
+* [ x] Submitted form values are retained when errors or results are shown.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
-* [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [ ] Add support for custom tip percentage
+* [ ] Add support for splitting the tip and total
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+* [ ] List anything else that you can get done to improve the functionality!
 
-## Video Walkthrough 
+## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/z9tHrMO.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+Challenges: The value of the radio button would be set to zero every time I tried to run the php application
 ## License
 
     Copyright [yyyy] [name of copyright owner]
